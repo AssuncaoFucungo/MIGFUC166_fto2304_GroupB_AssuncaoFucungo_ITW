@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UIF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Assunção Fucungo</title>
-        <meta name="viewport" content="width-device, initial-scale=1.0">
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="shortcut icon" type="image/png" href="/images/favicon-picture.png">
-    </head>
+    </head>  
     <body>
+        <nav id="navbar">
+            <a class="navLink" href="#education">Education</a>
+            <a class="navLink" href="#skills">Skills</a>
+            <a class="navLink" href="#contact">Contact details</a>                    
+        </nav>        
         <header>
             <h1>Assunção Muliata Miguel Fucungo</h1>
-            <h2>Web Developer</h2>
-            <img src="images/resume-picture.jpg" width="150px" height="150px">
-            <p>An introductory statement</p>
-            <nav>
-                <li><a class="navLink" href="#Education">Education</a></li>
-                <li><a class="navLink" href="#Skills">Skills</a></li>
-                <li><a class="navLink" href="#Contact details">Contact details</a></li>
-            </nav>
+            <h2>Front-end Web Developer</h2>
+            <img src="images/resume-picture.jpg" alt="Profile Picture" width="240px" height="250px">
+            <p>
+                Assuncao Muliata Miguel Fucungo is a highly motivated professional who has successfully completed a diploma and advanced diploma in marketing from the esteemed Tshwane University of Technology.
+                With a strong foundation in marketing, Assuncao is driven to continuously expand and enhance his skill set. 
+                Currently, he is dedicated to acquiring proficiency in HTML, CSS, and JavaScript, showcasing his commitment to staying ahead of the technological curve and bringing innovative solutions to the digital realm. With a passion for learning and a solid background in marketing, Assuncao is poised to make a significant impact in the dynamic world of digital marketing.
+            </p>
+
         </header>
         <main>
-
-            <h3 id="Education">Education</h3>
-           
-            <article>
-                <h4>Marketing Diploma</h4>
-                <p> 
-                    Completed a comprehensive marketing diploma program at TUT, equipping me with a strong foundation in marketing principles and practices.
-                    Developed a solid understanding of market analysis, consumer behavior, marketing research, and strategic marketing planning.
-                    Acquired expertise in marketing communications, including advertising, public relations, sales promotions, and digital marketing strategies.
-                </p>
-            </article>
-            
-            <article>
-                <h4>Marketing Advanced Diploma</h4>
-                <p>
-                    Acquired advanced skills in conducting market research, utilizing data analytics, and deriving actionable insights to drive marketing decisions and optimize campaigns.
-                    Strengthened communication and presentation skills through the delivery of persuasive marketing pitches and presentations to diverse audiences.
-                    Mastered the application of digital marketing tools and platforms, including social media advertising, search engine marketing (SEM), and content marketing, to maximize online visibility and engagement.
-                </p>
-            </article>
-
-            <h3 id="Skills">Skills</h3>
-            
-            <article>
-                <h4>Marketing Skills</h4>
-                <li>Marketing strategy</li>
-                <li>Marketing research</li>
-                <li>Marketing communication</li>
-                <li>Consumer analysis</li>
-                <li>Digital Marketing</li>
-            </article>
-
-            <article>
-                <h4>Web Development Skills</h4>
-                <li>Programming languages: HTML and CSS</li>
-                <li>Software use: VS Code and Github</li>
-            </article>
+            <section id="education">
+                <h3>Education</h3>
+                <ul>
+                    <li>Tshwane University of Technology 2022 Advanced Diploma in Marketing</li>
+                    <li>Tshwane University of Technology 2019-2021 Diploma in Marketing</li>
+                    <li>WillowRidge High School 2019 National Senior Certificate</li> 
+                </ul>
+            </section>
+        
+            <section id="skills">
+                <h3>Skills</h3>
+                <div>
+                    <h4>Marketing Skills</h4>
+                    <ul>
+                        <li>Marketing strategy</li>
+                        <li>Marketing research</li>
+                        <li>Marketing communication</li>
+                        <li>Consumer analysis</li>
+                        <li>Digital Marketing</li>   
+                    </ul>
+                </div>
+                <div>
+                    <h4>Web Development Skills</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Version control with Git</li>
+                    </ul>
+                </div>
+            </section>
         </main>
         <footer>
-            <h3 id="Contact details">Contact Details</h3>
-
+            <h3 id="contact">Contact Details</h3>
             <form action="https://formsubmit.co/assuncaofucungo@gmail.com" method="POST">
-            
                 <div>
                  <label for="name">Name:</label>
                  <input type="text" placeholder="Johnny Cage" name="name" pattern="[A-Za-z ]+" required>      
@@ -78,17 +76,13 @@
                 </div><br>
                 
                 <div>
-                 <input type="submit" value="Submit">      
+                 <button type="submit">Submit</button>    
                 </div><br>
-            
-              </form>
-
-              <ul>
+            </form>
+            <ul>
                 <li><a class="navLink" target="_blank" href="https://github.com/AssuncaoFucungo/Resumes">Github</a></li>
-                <li><a class="navLink" target="_blank" href="https://www.instagram.com/ass_un_cao/">Instagram</a></li>
-                <li><a class="navLink" target="_blank" href="https://twitter.com/as_sun_cao">Twitter</a></li>
-              </ul>      
-                
+                <li><a class="navLink" target="_blank" href="https://www.linkedin.com/in/assuncao-fucungo-504622279/">Linkedin</a></li>
+            </ul>             
         </footer>
     </body>
 </html>
