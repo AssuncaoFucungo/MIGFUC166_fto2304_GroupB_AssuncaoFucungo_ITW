@@ -1,8 +1,8 @@
 # digital-resume
 <h1 align="center">Hi 👋, I'm Assuncao Fucungo</h1>
-- 🔭 I’m currently working on [Figma file](https://www.figma.com/file/JBdGA7wbs4tLxGS4ZjqjEx/Assuncao-Fucungo-Resume-2?type=whiteboard&node-id=0%3A1&t=YQadrgv7bpyUV3qd-1)
+- 🔭 This is my figma file [Figma file](https://www.figma.com/file/JBdGA7wbs4tLxGS4ZjqjEx/Assuncao-Fucungo-Resume-2?type=whiteboard&node-id=0%3A1&t=YQadrgv7bpyUV3qd-1)
 
-- 🌱 I’m currently learning **This is a basic resume web page with my picture contatc details, description of me, my skills and education**
+- 🌱 I’m currently doing **This is a basic resume web page with my picture contatc details, description of me, my skills and education**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
